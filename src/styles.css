@@ -52,6 +52,24 @@ header p {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+
+main {
+  background-color: white;
+}
+
+main h2 {
+  color: black;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  padding-left: 20px;
 }
 footer {
   color: white;
@@ -100,8 +118,15 @@ footer a:hover {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 20px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 .container {
   max-width: 1400px;
@@ -119,5 +144,13 @@ footer a:hover {
 
   header h2 {
     font-size: 30px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
