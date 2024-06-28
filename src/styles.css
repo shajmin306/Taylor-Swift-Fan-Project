@@ -45,6 +45,10 @@ header a {
   letter-spacing: 3px;
 }
 
+header p {
+  text-align: center;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -96,7 +100,8 @@ footer a:hover {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
 }
 .container {
   max-width: 1400px;
