@@ -1,8 +1,62 @@
-h1 {
+body {
   font-family: "raleway";
+  background-color: #544937;
+}
+
+h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 96px;
   line-height: 144px;
-  color: red;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+header {
+  background-image: url(../images/taylor-hero.png);
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  margin: 0;
+}
+
+header a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 16px 32px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 46px;
+  }
+
+  header h2 {
+    font-size: 30px;
+  }
 }
