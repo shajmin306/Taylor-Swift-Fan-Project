@@ -170,6 +170,19 @@ footer a:hover {
   padding: 40px;
 }
 
+.videos-3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+.video {
+  aspect-ratio: 4/3;
+  width: 100%;
+  margin: 0 auto;
+}
 .btn {
   display: block;
   background-color: #544937;
@@ -211,5 +224,13 @@ footer a:hover {
 
   section {
     padding: 30px;
+  }
+
+  .videos-3 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
   }
 }
